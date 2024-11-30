@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.gallery h2 {
+  text-align: left;
+  margin-top: 0px;
+}
 .artwork img {
 
   aspect-ratio: 3/4; /* Enforces a 3:4 ratio */  
@@ -25,6 +29,25 @@
 
 .artwork img:hover {
   transform: scale(1.03); /* Slightly enlarge on hover */
+}
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #06661e;
+  box-shadow: 0 0 8px rgba(6, 102, 30, 0.2);
 }
 
 @media (max-width: 768px) {
