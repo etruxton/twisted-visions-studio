@@ -6,7 +6,8 @@
         "description": "Two lifelike bucks fighting. Real antlers!", 
         "images": [ 
             { "fileName":"deer.png" } 
-        ]
+        ],
+        "tags": [ "deer", "animal", "mammal", "buck", "antlers" ]
     },
     { 
         "pageId": "donkey",
@@ -15,7 +16,8 @@
         "description": "A goofy donkey with an awesome hat! No animals were harmed in the making of this sculpture.",
         "images": [ 
             { "fileName":"donkey.png" } 
-        ]
+        ],
+        "tags": [ "donkey", "animal", "mammal", "hat", "mule" ]
     },
     { 
         "pageId": "pig",
@@ -27,7 +29,8 @@
             { "fileName":"pig2.png" }, 
             { "fileName":"pig3.jpg" }, 
             { "fileName":"pig4.jpg" }   
-        ]
+        ],
+        "tags": [ "pigs", "animal", "mammal", "rose", "petals", "hog" ]
     },
     { 
         "pageId": "eagle_family",
@@ -38,7 +41,8 @@
             { "fileName":"eagle_family.jpg" }, 
             { "fileName":"eagle_family2.jpg" }, 
             { "fileName":"eagle_family3.jpg" }
-        ]
+        ],
+        "tags": [ "eagles", "birds", "animal", "mammal", "family", "usa", "eagle_family" ]
     },
     { 
         "pageId": "chickens_and_fox",
@@ -50,7 +54,8 @@
             { "fileName":"chickens_and_fox2.JPG" }, 
             { "fileName":"chickens_and_fox3.JPG" }, 
             { "fileName":"chickens_and_fox4.JPG" } 
-        ]
+        ],
+        "tags": [ "chickens", "fox", "animal", "mammal", "barnyard", "chicken_and_fox", "rooster", "hen" ]
     },
     { 
         "pageId": "car_driver",
@@ -59,7 +64,8 @@
         "description": "Where's he going?!?",
         "images": [ 
             { "fileName":"car_driver.jpg" } 
-        ]
+        ],
+        "tags": [ "car", "driver", "painting", "wall", "human" ]
     },
     { 
         "pageId": "man_and_dog",
@@ -70,7 +76,8 @@
             { "fileName":"man_and_dog.jpg" }, 
             { "fileName":"man_and_dog2.jpg" }, 
             { "fileName":"man_and_dog3.jpg" }
-        ]
+        ],
+        "tags": [ "man", "dog", "friend", "human", "man_and_dog" ]
     },
     { 
         "pageId": "predators",
@@ -79,7 +86,8 @@
         "description": "Go Preds! SMASHVILLE!",
         "images": [ 
             { "fileName":"predators.jpg" } 
-        ]
+        ],
+        "tags": [ "predators", "nashville", "gnash", "mascot", "hockey", "tn", "tennessee" ]
     },
     { 
         "pageId": "tree_face",
@@ -89,7 +97,8 @@
         "images": [ 
             { "fileName":"tree_face.jpg" } ,
             { "fileName":"tree_face2.jpg" } 
-        ]
+        ],
+        "tags": [ "tree", "face", "bark", "wood", "tree_face", "plants"]
     },
     { 
         "pageId": "xmas",
@@ -100,7 +109,8 @@
             { "fileName":"xmas.jpeg" }, 
             { "fileName":"xmas2.jpeg" }, 
             { "fileName":"xmas3.jpeg" }
-        ]
+        ],
+        "tags": [ "christmas", "smyrna", "tn", "holiday", "xmas", "tennessee", "reindeer", "presents", "winter" ]
     },
     { 
         "pageId": "ohiostate",
@@ -109,7 +119,8 @@
         "description": "Once Papier-Mâché, now Chicken Wire.",
         "images": [ 
             { "fileName":"ohiostate.jpg" } 
-        ]
+        ],
+        "tags": [ "ohio", "state", "univserity", "college", "ohiostate", "buckeye", "mascot" ]
     },
     { 
         "pageId": "bulldogbear",
@@ -118,7 +129,8 @@
         "description": "Is he a bulldog? Is he a bear? Only Rich could tell you!",
         "images": [ 
             { "fileName":"bulldogbear.jpg" } 
-        ]
+        ],
+        "tags": [ "bulldog", "bear", "animal", "mammal", "bulldogbear", "mascot" ]
     },
     { 
         "pageId": "warthogs",
@@ -127,7 +139,8 @@
         "description": "When I was a Young Warthog 🎵",
         "images": [ 
             { "fileName":"warthogs.jpg" } 
-        ]
+        ],
+        "tags": [ "warthog", "hog", "animal", "mammal", "warthogs" ]
     },
     { 
         "pageId": "bear",
@@ -136,7 +149,8 @@
         "description": "Just bear with me for a sec...",
         "images": [ 
             { "fileName":"bear.jpg" } 
-        ]
+        ],
+        "tags": [ "bear", "animal", "mammal" ]
     },
     { 
         "pageId": "farm",
@@ -147,7 +161,8 @@
             { "fileName":"farm.jpg" },
             { "fileName":"farm2.jpg" },
             { "fileName":"farm3.jpg" }
-        ]
+        ],
+        "tags": [ "farm", "barn", "windmill", "farmhouse" ]
     },
     { 
         "pageId": "highlandcow",
@@ -156,7 +171,8 @@
         "description": "I take the high road",
         "images": [ 
             { "fileName":"highlandcow.jpg" } 
-        ]
+        ],
+        "tags": [ "cow", "highlandcow", "animal", "mammal" ]
     },
     { 
         "pageId": "eagle",
@@ -166,7 +182,8 @@
         "images": [ 
             { "fileName":"eagle.jpg" }, 
             { "fileName":"eagle2.jpg" }
-        ]
+        ],
+        "tags": [ "eagles", "birds", "animal", "mammal", "bell", "usa" ]
     },
     { 
         "pageId": "giraffe",
@@ -178,7 +195,8 @@
             { "fileName":"giraffe2.jpeg" }, 
             { "fileName":"giraffe3.jpg" }, 
             { "fileName":"giraffe4.jpg" }
-        ]
+        ],
+        "tags": [ "giraffe", "animal", "mammal", "zoo", "knoxville", "tennessee", "zoo knoxville", "tn"]
     },
     { 
         "pageId": "boo_at_the_zoo",
@@ -190,17 +208,19 @@
             { "fileName":"boo_at_the_zoo2.jpeg" }, 
             { "fileName":"boo_at_the_zoo3.jpg" }, 
             { "fileName":"boo_at_the_zoo4.jpeg" }
-        ]
+        ],
+        "tags": [ "boo", "pumpkin", "ghost", "ghoul", "zoo", "knoxville", "tennessee", "boo_at_the_zoo", "zoo knoxville", "halloween", "tn" ]
     },
     { 
         "pageId": "farm_girl",
         "fileName": "farm_girl.jpg", 
         "title": "Farm Girl", 
-        "description": "Farm Girl",
+        "description": "Farm Girl with her chickens and pig",
         "images": [ 
             { "fileName":"farm_girl.jpg" }, 
             { "fileName":"farm_girl2.jpg" }
-        ]
+        ],
+        "tags": [ "farm", "girl", "chickens", "hog", "rooster","basket", "farm_girl", "human" ]
     },
     { 
         "pageId": "garden_misc",
@@ -213,10 +233,21 @@
             { "fileName":"garden_misc3.jpg" },
             { "fileName":"garden_misc4.jpg" },
             { "fileName":"garden_misc5.jpg" },
-            { "fileName":"garden_misc6.jpg" },
-            { "fileName":"garden_misc7.jpg" },
-            { "fileName":"garden_misc8.jpg" }
-        ]
+            { "fileName":"garden_misc6.jpg" }
+        ],
+        "tags": [ "garden", "misc", "miscellaneous", "garden_misc", "mushrooms", "hydrant", "plants", "ambulance" ]
+    },
+    { 
+        "pageId": "fairy",
+        "fileName": "fairy.jpg", 
+        "title": "Fairy", 
+        "description": "Fairy Garden",
+        "images": [ 
+            { "fileName":"fairy.jpg" },
+            { "fileName":"fairy2.jpg" },
+            { "fileName":"fairy3.jpg" }
+        ],
+        "tags": [ "fairy", "garden", "love" ]
     },
     { 
         "pageId": "bucky_and_chucky",
@@ -227,7 +258,8 @@
             { "fileName":"bucky_and_chucky.jpg" }, 
             { "fileName":"bucky_and_chucky2.jpg" }, 
             { "fileName":"bucky_and_chucky3.jpg" }
-        ]
+        ],
+        "tags": [ "bucky", "chucky", "and", "buck", "chuck", "bucky_and_chucky", "animal", "mammal" ]
     },
     { 
         "pageId": "doughboy",
@@ -236,7 +268,8 @@
         "description": "Doughboy!",
         "images": [ 
             { "fileName":"doughboy.jpg" }
-        ]
+        ],
+        "tags": [ "doughboy", "soldier", "cannon", "war", "human" ]
     },
     { 
         "pageId": "soldier",
@@ -245,7 +278,8 @@
         "description": "It's a soldier!",
         "images": [ 
             { "fileName":"soldier.jpg" }
-        ]
+        ],
+        "tags": [ "soldier", "cannon", "war", "human", "stance" ]
     },
     { 
         "pageId": "smyrna_train",
@@ -257,7 +291,8 @@
             { "fileName":"smyrna_train2.jpg" }, 
             { "fileName":"smyrna_train3.jpg" }, 
             { "fileName":"smyrna_train4.jpg" }
-        ]
+        ],
+        "tags": [ "train", "smyrna", "tn", "tennessee", "conductor", "smyrna_train", "98" ]
     },
     { 
         "pageId": "snake",
@@ -266,15 +301,27 @@
         "description": "It's a snake!",
         "images": [ 
             { "fileName":"snake.jpg" }
-        ]
+        ],
+        "tags": [ "snake", "tree", "animal", "reptile", "hang", "slither" ]
     },
     { 
         "pageId": "bowling",
         "fileName": "bowling.jpg", 
-        "title": "bowling", 
+        "title": "Bowling", 
         "description": "Got a strike!",
         "images": [ 
             { "fileName":"bowling.jpg" }
-        ]
+        ],
+        "tags": [ "bowling", "ball", "sport", "strike", "pins" ]
+    },
+    { 
+        "pageId": "man_and_woman",
+        "fileName": "man_and_woman.jpg", 
+        "title": "Man and Woman", 
+        "description": "Dressed for the occasion.",
+        "images": [ 
+            { "fileName":"man_and_woman.jpg" }
+        ],
+        "tags": [ "man", "and", "woman", "human", "people" ]
     }
 ]
