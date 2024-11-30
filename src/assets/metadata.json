@@ -1,0 +1,280 @@
+[
+    { 
+        "pageId": "deer",
+        "fileName": "deer.png",
+        "title": "Deer", 
+        "description": "Two lifelike bucks fighting. Real antlers!", 
+        "images": [ 
+            { "fileName":"deer.png" } 
+        ]
+    },
+    { 
+        "pageId": "donkey",
+        "fileName": "donkey.png", 
+        "title": "Donkey", 
+        "description": "A goofy donkey with an awesome hat! No animals were harmed in the making of this sculpture.",
+        "images": [ 
+            { "fileName":"donkey.png" } 
+        ]
+    },
+    { 
+        "pageId": "pig",
+        "fileName": "pig.png", 
+        "title": "Pig", 
+        "description": "A piggy amongst the rose petals. Gifted to my amazing step-son and his girlfriend, Jonathan and Erica." ,
+        "images": [ 
+            { "fileName":"pig.png" }, 
+            { "fileName":"pig2.png" }, 
+            { "fileName":"pig3.jpg" }, 
+            { "fileName":"pig4.jpg" }   
+        ]
+    },
+    { 
+        "pageId": "eagle_family",
+        "fileName": "eagle_family.jpg", 
+        "title": "Eagle Family", 
+        "description": "USA!",
+        "images": [ 
+            { "fileName":"eagle_family.jpg" }, 
+            { "fileName":"eagle_family2.jpg" }, 
+            { "fileName":"eagle_family3.jpg" }
+        ]
+    },
+    { 
+        "pageId": "chickens_and_fox",
+        "fileName": "chickens_and_fox.JPG", 
+        "title": "Chickens and Fox", 
+        "description": "Your barnyard chickens and fox." ,
+        "images": [ 
+            { "fileName":"chickens_and_fox.JPG" }, 
+            { "fileName":"chickens_and_fox2.JPG" }, 
+            { "fileName":"chickens_and_fox3.JPG" }, 
+            { "fileName":"chickens_and_fox4.JPG" } 
+        ]
+    },
+    { 
+        "pageId": "car_driver",
+        "fileName": "car_driver.jpg", 
+        "title": "Car Driver", 
+        "description": "Where's he going?!?",
+        "images": [ 
+            { "fileName":"car_driver.jpg" } 
+        ]
+    },
+    { 
+        "pageId": "man_and_dog",
+        "fileName": "man_and_dog.jpg", 
+        "title": "Man and Dog", 
+        "description": "A man's best friend.",
+        "images": [ 
+            { "fileName":"man_and_dog.jpg" }, 
+            { "fileName":"man_and_dog2.jpg" }, 
+            { "fileName":"man_and_dog3.jpg" }
+        ]
+    },
+    { 
+        "pageId": "predators",
+        "fileName": "predators.jpg", 
+        "title": "Predators Mascot - Gnash", 
+        "description": "Go Preds! SMASHVILLE!",
+        "images": [ 
+            { "fileName":"predators.jpg" } 
+        ]
+    },
+    { 
+        "pageId": "tree_face",
+        "fileName": "tree_face.jpg", 
+        "title": "Tree Face", 
+        "description": "All bark and no bite.",
+        "images": [ 
+            { "fileName":"tree_face.jpg" } ,
+            { "fileName":"tree_face2.jpg" } 
+        ]
+    },
+    { 
+        "pageId": "xmas",
+        "fileName": "xmas.jpeg", 
+        "title": "Christmas in Smyrna, TN", 
+        "description": "It's the most wonderful time of the year!",
+        "images": [ 
+            { "fileName":"xmas.jpeg" }, 
+            { "fileName":"xmas2.jpeg" }, 
+            { "fileName":"xmas3.jpeg" }
+        ]
+    },
+    { 
+        "pageId": "ohiostate",
+        "fileName": "ohiostate.jpg", 
+        "title": "Ohio State Buckeye", 
+        "description": "Once Papier-Mâché, now Chicken Wire.",
+        "images": [ 
+            { "fileName":"ohiostate.jpg" } 
+        ]
+    },
+    { 
+        "pageId": "bulldogbear",
+        "fileName": "bulldogbear.jpg", 
+        "title": "Bull Dog Bear", 
+        "description": "Is he a bulldog? Is he a bear? Only Rich could tell you!",
+        "images": [ 
+            { "fileName":"bulldogbear.jpg" } 
+        ]
+    },
+    { 
+        "pageId": "warthogs",
+        "fileName": "warthogs.jpg", 
+        "title": "Warthogs", 
+        "description": "When I was a Young Warthog 🎵",
+        "images": [ 
+            { "fileName":"warthogs.jpg" } 
+        ]
+    },
+    { 
+        "pageId": "bear",
+        "fileName": "bear.jpg", 
+        "title": "Bear", 
+        "description": "Just bear with me for a sec...",
+        "images": [ 
+            { "fileName":"bear.jpg" } 
+        ]
+    },
+    { 
+        "pageId": "farm",
+        "fileName": "farm.jpg", 
+        "title": "Farm", 
+        "description": "Farm!",
+        "images": [ 
+            { "fileName":"farm.jpg" },
+            { "fileName":"farm2.jpg" },
+            { "fileName":"farm3.jpg" }
+        ]
+    },
+    { 
+        "pageId": "highlandcow",
+        "fileName": "highlandcow.jpg", 
+        "title": "Highland Cow", 
+        "description": "I take the high road",
+        "images": [ 
+            { "fileName":"highlandcow.jpg" } 
+        ]
+    },
+    { 
+        "pageId": "eagle",
+        "fileName": "eagle.jpg", 
+        "title": "Eagle", 
+        "description": "The National Bird! A beautiful eagle perched on a bell." ,
+        "images": [ 
+            { "fileName":"eagle.jpg" }, 
+            { "fileName":"eagle2.jpg" }
+        ]
+    },
+    { 
+        "pageId": "giraffe",
+        "fileName": "giraffe.jpg", 
+        "title": "Giraffes Made for Zoo Knoxville", 
+        "description": "One of Rich's biggest projects to date. These giraffes were made for the Zoo Knoxville in Tennessee.",
+        "images": [ 
+            { "fileName":"giraffe.jpg" }, 
+            { "fileName":"giraffe2.jpeg" }, 
+            { "fileName":"giraffe3.jpg" }, 
+            { "fileName":"giraffe4.jpg" }
+        ]
+    },
+    { 
+        "pageId": "boo_at_the_zoo",
+        "fileName": "boo_at_the_zoo.jpg", 
+        "title": "Boo at the Zoo, Zoo Knoxville", 
+        "description": "Booooooooo at the Zoooooooooo",
+        "images": [ 
+            { "fileName":"boo_at_the_zoo.jpg" }, 
+            { "fileName":"boo_at_the_zoo2.jpeg" }, 
+            { "fileName":"boo_at_the_zoo3.jpg" }, 
+            { "fileName":"boo_at_the_zoo4.jpeg" }
+        ]
+    },
+    { 
+        "pageId": "farm_girl",
+        "fileName": "farm_girl.jpg", 
+        "title": "Farm Girl", 
+        "description": "Farm Girl",
+        "images": [ 
+            { "fileName":"farm_girl.jpg" }, 
+            { "fileName":"farm_girl2.jpg" }
+        ]
+    },
+    { 
+        "pageId": "garden_misc",
+        "fileName": "garden_misc.jpg", 
+        "title": "Miscellaneous Garden Items", 
+        "description": "Over the Garden Wall",
+        "images": [ 
+            { "fileName":"garden_misc.jpg" },
+            { "fileName":"garden_misc2.jpg" },
+            { "fileName":"garden_misc3.jpg" },
+            { "fileName":"garden_misc4.jpg" },
+            { "fileName":"garden_misc5.jpg" },
+            { "fileName":"garden_misc6.jpg" },
+            { "fileName":"garden_misc7.jpg" },
+            { "fileName":"garden_misc8.jpg" }
+        ]
+    },
+    { 
+        "pageId": "bucky_and_chucky",
+        "fileName": "bucky_and_chucky.jpg", 
+        "title": "Bucky and Chucky", 
+        "description": "Your favorite buck and chuck!",
+        "images": [ 
+            { "fileName":"bucky_and_chucky.jpg" }, 
+            { "fileName":"bucky_and_chucky2.jpg" }, 
+            { "fileName":"bucky_and_chucky3.jpg" }
+        ]
+    },
+    { 
+        "pageId": "doughboy",
+        "fileName": "doughboy.jpg", 
+        "title": "Doughboy", 
+        "description": "Doughboy!",
+        "images": [ 
+            { "fileName":"doughboy.jpg" }
+        ]
+    },
+    { 
+        "pageId": "soldier",
+        "fileName": "soldier.jpg", 
+        "title": "Soldier", 
+        "description": "It's a soldier!",
+        "images": [ 
+            { "fileName":"soldier.jpg" }
+        ]
+    },
+    { 
+        "pageId": "smyrna_train",
+        "fileName": "smyrna_train.jpg", 
+        "title": "Smyrna Train", 
+        "description": "Train and Conductor made for Train Station in Smyrna, TN.",
+        "images": [ 
+            { "fileName":"smyrna_train.jpg" }, 
+            { "fileName":"smyrna_train2.jpg" }, 
+            { "fileName":"smyrna_train3.jpg" }, 
+            { "fileName":"smyrna_train4.jpg" }
+        ]
+    },
+    { 
+        "pageId": "snake",
+        "fileName": "snake.jpg", 
+        "title": "Snake", 
+        "description": "It's a snake!",
+        "images": [ 
+            { "fileName":"snake.jpg" }
+        ]
+    },
+    { 
+        "pageId": "bowling",
+        "fileName": "bowling.jpg", 
+        "title": "bowling", 
+        "description": "Got a strike!",
+        "images": [ 
+            { "fileName":"bowling.jpg" }
+        ]
+    }
+]

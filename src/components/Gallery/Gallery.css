@@ -1,0 +1,96 @@
+.artworks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  margin-bottom: 100px; 
+}
+
+.artwork {
+  width: 400px; /* Example width: set proportional to desired ratio */
+  text-align: center;
+}
+
+.artwork img {
+
+  aspect-ratio: 3/4; /* Enforces a 3:4 ratio */  
+  width: 100%; /* Ensure the image fills the container */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Crop images to fit the dimensions */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for aesthetics */
+  cursor: pointer; /* Optional: Add a pointer cursor on hover */
+  transition: transform 0.2s ease; /* Add a hover effect */
+}
+
+.artwork img:hover {
+  transform: scale(1.03); /* Slightly enlarge on hover */
+}
+
+@media (max-width: 768px) {
+  .artwork {
+    width: calc(200px * (3 / 4)); /* Adjust the width for smaller screens */
+  }
+
+  .artwork img {
+      height: 120px; /* Adjust height proportionally */
+  }
+
+  .artworks {
+    margin-bottom: 50px; 
+}
+}
+/* Modal container */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px); /* Blur the background */
+  z-index: 1000; /* Ensure modal is above other elements */
+}
+
+/* Modal content */
+.modal-content {
+  position: relative;
+  max-width: 90%; /* Limit the size of the modal */
+  max-height: 90%;
+  text-align: center;
+  color: black;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* Ensure the image doesn't overflow the screen */
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.modal-content p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  padding-bottom: 100px
+}
+
+.modal-content h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.modal-content .description {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #131313; /* Subtle color to distinguish it from the title */
+}
+
+/* Close modal when clicking the background */
+.modal:hover {
+  cursor: pointer;
+}

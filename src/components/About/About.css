@@ -1,0 +1,56 @@
+/* Overall container */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto; /* Center the content */
+  }
+  
+  /* About Me Section */
+  .about-me {
+    flex: 1; /* Takes up one part of the layout */
+    text-align: left;
+  }
+  
+  .about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .about-me p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Image Gallery Section */
+  .about-images {
+    flex: 1; /* Takes up one part of the layout */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+  }
+  
+  .about-images img {
+    width: 45% ; /* Images take 50% of the container width, minus gap */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column; /* Stack sections vertically */
+      align-items: center;
+    }
+  
+    .about-images img {
+      width: 70%; /* Images take full width */
+    }
+  }

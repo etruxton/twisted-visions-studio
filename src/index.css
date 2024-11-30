@@ -1,0 +1,111 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom:60px;   /* Height of the footer */
+
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;            /* Footer height */
+  background-color: #06661e; /* Fallback color */
+  color: white;
+  text-align: center;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for aesthetics */
+  z-index: 1; /* Ensure content is above the pseudo-element */
+  overflow: hidden; /* Prevent pseudo-element from spilling out */
+}
+#footer::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/images/chickenwire_background.png'); /* Replace with your image path */
+  background-position: center;
+  background-repeat: repeat;  
+  opacity: 0.3; /* Adjust opacity for the background image */
+  z-index: -1; /* Place below the footer content */
+}
+
+.header {
+  position: relative; /* Establish a containing block for the pseudo-element */
+  background-color: #06661e; /* Fallback color */
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for aesthetics */
+  z-index: 1; /* Ensure content is above the pseudo-element */
+  overflow: hidden; /* Prevent pseudo-element from spilling out */
+}
+
+.header::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/images/chickenwire_background.png'); /* Replace with your image path */
+  background-position: center;
+  background-repeat: repeat;  
+  opacity: 0.3; /* Adjust opacity for the background image */
+  z-index: -1; /* Place below the header content */
+}
+
+.header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.gallery, .about, .contact {
+  padding: 2em;
+}
+
+.artworks {
+  display: flex;
+  column-gap: 1em;
+}
+
+.artwork img {
+  max-width: 100%;
+  height: auto;
+}
+
+.artwork {
+  text-align: center;
+}
+.image-page {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 12px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
