@@ -1,24 +1,90 @@
 /* Overall container */
 .contact-container {
-    max-width: 1500px;
-    margin: 0 auto; /* Center the content */
-    align-items: start; /* Align items to the top of the container */
+  display: grid;
+  grid-template-areas: 
+    "text image-right"
+    "image-left image-right";
+  grid-template-columns: 2fr 1fr; /* Left takes more space, right takes less */
+  grid-template-rows: auto auto; /* Automatically adjust the height */
+  gap: 20px; /* Space between elements */
+  padding: 20px;
+  max-width: 1500px;
+  margin: 0 auto; /* Center the content */
+  align-items: start; /* Align items to the top of the container */
+}
+
+/* contact Me Section */
+.contact-me {
+  grid-area: text; /* Assign to the text section */
+  text-align: left;
+}
+
+.contact-me h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-me p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Left Image */
+.contact-images .image-right {
+  grid-area: image-left; /* Assign to the bottom-left section */
+  max-width: 100%; /* Scale image down */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+/* Right Image */
+.contact-images .image-left {
+  grid-area: image-right; /* Assign to the right section */
+  max-width: 100%; /* Adjust width */
+  max-height: 400px; /* Optional: Limit the height */
+  object-fit: contain; /* Maintain aspect ratio */
+  border-radius: 8px;
+  margin-right: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+/* Back to Gallery Button */
+.back-to-gallery {
+  align-self: flex-start; /* Align to the top left */
+  margin-top: 20px; /* Add some space around the button */
+  margin-left: 20px; /* Add some space around the button */
+  padding: 10px 20px;
+  background-color: #06661e; /* Match header/footer color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-gallery:hover {
+  background-color: #044d16; /* Darker shade for hover effect */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-areas: 
+      "text"
+      "image-left"
+      "image-right";
+    grid-template-columns: 1fr; /* Stack items in one column */
+    grid-template-rows: auto auto auto; /* Each item gets its own row */
+    gap: 15px; /* Adjust spacing for smaller screens */
   }
-  
-  /* contact Me Section */
-  .contact-me {
-    grid-area: text; /* Assign to the text section */
-    text-align: left;
+
+  .contact-images .image-left,
+  .contact-images .image-right {
+    max-width: 90%; /* Adjust image size for smaller screens */
+    margin: 0 auto; /* Center the images */
   }
-  
-  .contact-me h2 {
-    font-size: 2rem;
-    padding-bottom: 10px;
-    color: #333;
-  }
-  
-  .contact-me p {
-    font-size: 1.2rem;
-    color: #555;
-    line-height: 1.6;
-  }
+}
