@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Twisted Visions Studio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a static website hosted on S3. Serves as an art gallery for a family member who makes sculptures out of chicken wire.
 
-## Available Scripts
+https://twistedvisionsstudio.com
+
+## Development Commands
 
 In the project directory, you can run:
 
@@ -14,10 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment Commands
 
 ### `npm run build`
 
@@ -25,46 +24,44 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `aws configure`
 
-### `npm run eject`
+When you run this command, you’ll be prompted to enter:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Access Key ID: Your AWS access key.
+- Secret Access Key: Your AWS secret key.
+- Default Region: The AWS region for your services (e.g., us-east-1).
+- Default Output Format: Format for AWS CLI output (e.g., json, table, or text).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `aws s3 sync build/ s3://twistedvisionsstudio.com`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The `aws s3 sync` command is used to synchronize your local build/ directory with an S3 bucket. This uploads your static files to the bucket, making them available for hosting.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Source Directory (build/): Path to the local directory containing your built project files.
+- Destination Bucket (s3://twistedvisionsstudio.com): The S3 bucket where your files will be uploaded.
+- This command ensures that only new or updated files are uploaded to reduce unnecessary data transfer.
 
-## Learn More
+### `aws s3 sync build/ s3://twistedvisionsstudio.com --delete`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The `--delete` flag in the `aws s3 sync` command removes files in the S3 bucket that no longer exist in your local build/ directory. Use this flag to ensure your S3 bucket mirrors the current state of your project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Important**: This will delete any files in the S3 bucket that are not in your local `build/` directory. Use with caution!
 
-### Code Splitting
+### `aws cloudfront create-invalidation --distribution-id E2JBNOY4U9BCHB --paths "/*"`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+After uploading new files to S3, use the `aws cloudfront create-invalidation` command to invalidate cached files in CloudFront. This ensures that users see the latest version of your website.
 
-### Analyzing the Bundle Size
+- `--distribution-id`: The ID of your CloudFront distribution.
+- `--paths "/*"`: Specifies which paths to invalidate. The /* pattern invalidates all cached files, forcing CloudFront to fetch the latest versions from your S3 bucket.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### By following these steps, your latest changes will be live on your website.
 
-### Making a Progressive Web App
+## Informational Domain Management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Domain https://twistedvisionsstudio.com is hosted on CloudFlare.
 
-### Advanced Configuration
+https://twistedvisionsstudio.com is a CNAME for our CloudFront Distribution domain name: https://d3vr3c09xvq0un.cloudfront.net
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We also have a CNAME for the public cert inside of AWS that is used for domain verification.
