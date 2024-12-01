@@ -54,9 +54,10 @@
 }
 
 /* Back button styling */
-.back-button {
+.back-to-gallery {
   align-self: flex-start; /* Align to the top left */
-  margin: 20px; /* Add some space around the button */
+  margin-top: 20px; /* Add some space around the button */
+  margin-left: 20px; /* Add some space around the button */
   padding: 10px 20px;
   background-color: #06661e; /* Match header/footer color */
   color: white;
@@ -67,7 +68,7 @@
   transition: background-color 0.3s ease;
 }
 
-.back-button:hover {
+.back-to-gallery:hover {
   background-color: #044d16; /* Darker shade for hover effect */
 }
 

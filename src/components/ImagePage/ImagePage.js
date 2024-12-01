@@ -19,6 +19,9 @@ const ImagePage = () => {
   };
 
   useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  
     // If no pageData is found, navigate to the NotFound page
     if (!pageData) {
       navigate('/404', { replace: true });
@@ -32,7 +35,7 @@ const ImagePage = () => {
 
   return (
     <div className="image-page">
-      <button className="back-button" onClick={() => navigate(-1)}>
+      <button className="back-to-gallery" onClick={() => navigate('/')}>
         &larr; Back to Gallery
       </button>
       <h2>{pageData.title}</h2>
