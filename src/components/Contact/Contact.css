@@ -1,0 +1,24 @@
+/* Overall container */
+.contact-container {
+    max-width: 1500px;
+    margin: 0 auto; /* Center the content */
+    align-items: start; /* Align items to the top of the container */
+  }
+  
+  /* contact Me Section */
+  .contact-me {
+    grid-area: text; /* Assign to the text section */
+    text-align: left;
+  }
+  
+  .contact-me h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-me p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }

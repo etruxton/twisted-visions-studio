@@ -42,7 +42,7 @@
             { "fileName":"eagle_family2.jpg" }, 
             { "fileName":"eagle_family3.jpg" }
         ],
-        "tags": [ "eagles", "birds", "animal", "mammal", "family", "usa", "eagle_family" ]
+        "tags": [ "eagles", "birds", "animal", "mammal", "family", "usa", "eagle_family", "bald", "bald ealge" ]
     },
     { 
         "pageId": "chickens_and_fox",
@@ -80,16 +80,6 @@
         "tags": [ "man", "dog", "friend", "human", "man_and_dog" ]
     },
     { 
-        "pageId": "predators",
-        "fileName": "predators.jpg", 
-        "title": "Predators Mascot - Gnash", 
-        "description": "Go Preds! SMASHVILLE!",
-        "images": [ 
-            { "fileName":"predators.jpg" } 
-        ],
-        "tags": [ "predators", "nashville", "gnash", "mascot", "hockey", "tn", "tennessee" ]
-    },
-    { 
         "pageId": "tree_face",
         "fileName": "tree_face.jpg", 
         "title": "Tree Face", 
@@ -98,7 +88,17 @@
             { "fileName":"tree_face.jpg" } ,
             { "fileName":"tree_face2.jpg" } 
         ],
-        "tags": [ "tree", "face", "bark", "wood", "tree_face", "plants"]
+        "tags": [ "tree", "face", "bark", "wood", "tree_face", "plants", "mushroom"]
+    },
+    { 
+        "pageId": "bear",
+        "fileName": "bear.jpg", 
+        "title": "Bear", 
+        "description": "Just bear with me for a sec...",
+        "images": [ 
+            { "fileName":"bear.jpg" } 
+        ],
+        "tags": [ "bear", "animal", "mammal" ]
     },
     { 
         "pageId": "xmas",
@@ -143,14 +143,14 @@
         "tags": [ "warthog", "hog", "animal", "mammal", "warthogs" ]
     },
     { 
-        "pageId": "bear",
-        "fileName": "bear.jpg", 
-        "title": "Bear", 
-        "description": "Just bear with me for a sec...",
+        "pageId": "predators",
+        "fileName": "predators.jpg", 
+        "title": "Predators Mascot - Gnash", 
+        "description": "Go Preds! SMASHVILLE!",
         "images": [ 
-            { "fileName":"bear.jpg" } 
+            { "fileName":"predators.jpg" } 
         ],
-        "tags": [ "bear", "animal", "mammal" ]
+        "tags": [ "predators", "nashville", "gnash", "mascot", "hockey", "tn", "tennessee" ]
     },
     { 
         "pageId": "farm",
@@ -183,7 +183,7 @@
             { "fileName":"eagle.jpg" }, 
             { "fileName":"eagle2.jpg" }
         ],
-        "tags": [ "eagles", "birds", "animal", "mammal", "bell", "usa" ]
+        "tags": [ "eagles", "birds", "animal", "mammal", "bell", "usa", "bald ealge" ]
     },
     { 
         "pageId": "giraffe",
