@@ -15,7 +15,8 @@
         "title": "Donkey", 
         "description": "A goofy donkey with an awesome hat! No animals were harmed in the making of this sculpture.",
         "images": [ 
-            { "fileName":"donkey.png" } 
+            { "fileName":"donkey.png" },
+            { "fileName":"donkey2.jpg" } 
         ],
         "tags": [ "donkey", "animal", "mammal", "hat", "mule" ]
     },
@@ -53,7 +54,9 @@
             { "fileName":"chickens_and_fox.JPG" }, 
             { "fileName":"chickens_and_fox2.JPG" }, 
             { "fileName":"chickens_and_fox3.JPG" }, 
-            { "fileName":"chickens_and_fox4.JPG" } 
+            { "fileName":"chickens_and_fox4.JPG" }, 
+            { "fileName":"chickens_and_fox5.jpg" }, 
+            { "fileName":"chickens_and_fox6.jpg" }   
         ],
         "tags": [ "chickens", "fox", "animal", "mammal", "barnyard", "chicken_and_fox", "rooster", "hen" ]
     },
@@ -170,7 +173,10 @@
         "title": "Highland Cow", 
         "description": "I take the high road",
         "images": [ 
-            { "fileName":"highlandcow.jpg" } 
+            { "fileName":"highlandcow.jpg" },
+            { "fileName":"highlandcow2.jpg" },
+            { "fileName":"highlandcow3.jpg" },
+            { "fileName":"highlandcow4.jpg" } 
         ],
         "tags": [ "cow", "highlandcow", "animal", "mammal" ]
     },
@@ -323,5 +329,56 @@
             { "fileName":"man_and_woman.jpg" }
         ],
         "tags": [ "man", "and", "woman", "human", "people" ]
+    },
+    { 
+        "pageId": "turkey",
+        "fileName": "turkey.jpg", 
+        "title": "Turkey", 
+        "description": "Wouldn't eat this one for Thanksgiving!",
+        "images": [ 
+            { "fileName":"turkey.jpg" },
+            { "fileName":"turkey2.jpg" }
+        ],
+        "tags": [ "turkey", "animal", "bird", "gobble", "thanksgiving" ]
+    },
+    { 
+        "pageId": "xmas_elf",
+        "fileName": "xmas_elf.jpg", 
+        "title": "Christmas Elves", 
+        "description": "Santa's Elves! Ready for Christmas!",
+        "images": [ 
+            { "fileName":"xmas_elf.jpg" }
+        ],
+        "tags": [ "elf", "christmans", "xmas", "xmas_elf", "elves", "holiday" ]
+    },
+    { 
+        "pageId": "duck",
+        "fileName": "duck.jpg", 
+        "title": "Duck", 
+        "description": "Duck!",
+        "images": [ 
+            { "fileName":"duck.jpg" }
+        ],
+        "tags": [ "duck", "animal", "bird", "quack" ]
+    },
+    { 
+        "pageId": "sunflower",
+        "fileName": "sunflower.jpg", 
+        "title": "Sunflowers", 
+        "description": "Pretty sunflowers!",
+        "images": [ 
+            { "fileName":"sunflower.jpg" }
+        ],
+        "tags": [ "sunflower", "plants", "flower", "sun" ]
+    },
+    { 
+        "pageId": "mushroom",
+        "fileName": "mushroom.jpg", 
+        "title": "Mushrooms", 
+        "description": "Pretty mushroom!",
+        "images": [ 
+            { "fileName":"mushroom.jpg" }
+        ],
+        "tags": [ "mushroom", "plants", "fungus", "shroom" ]
     }
 ]
