@@ -22,13 +22,10 @@ const Contact = () => {
           Richard will not make or consider any art that is political, religious nor controversial in any manner and has the right to refuse service for any reason.
           </p>
           <p>
-          If you are interested in a piece, you can apply through Facebook Messenger communicating with his wife <b>Page Powers</b>. 
+          If you are interested in a piece, you may reach out to the <b>Twisted Visions Studio Facebook Page</b> through Facebook Messenger. 
           </p>
           <p>
-          Page Powers Facebook: <a href="https://www.facebook.com/page.powers62">https://www.facebook.com/page.powers62</a>
-          </p>
-          <p>
-          Twisted Visions Studio Facebook Group: <u>Coming Soon</u>
+          Twisted Visions Studio Facebook Page: <a href="https://www.facebook.com/twistedvisionsstudio">https://www.facebook.com/twistedvisionsstudio</a>
           </p>
         </div>
 
