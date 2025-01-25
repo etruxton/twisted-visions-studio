@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://twistedvisionsstudio.com/</loc>
+    <lastmod>2025-01-24</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://twistedvisionsstudio.com/about</loc>
+    <lastmod>2024-11-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gallery Page -->
+  <url>
+    <loc>https://twistedvisionsstudio.com/gallery</loc>
+    <lastmod>2024-12-01</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://twistedvisionsstudio.com/contact</loc>
+    <lastmod>2024-12-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>
