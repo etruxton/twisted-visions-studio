@@ -44,7 +44,7 @@ const Header = () => (
 );
 const Footer = () => (
   <footer id="footer">
-    <p>&copy; 2024 Twisted Visions Studio. All rights reserved.</p>
+    <p>&copy; 2025 Twisted Visions Studio. All rights reserved.</p>
   </footer>
 );
 
