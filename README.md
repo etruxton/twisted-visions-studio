@@ -49,7 +49,7 @@ The `--delete` flag in the `aws s3 sync` command removes files in the S3 bucket 
 
 **Important**: This will delete any files in the S3 bucket that are not in your local `build/` directory. Use with caution!
 
-### `aws cloudfront create-invalidation --distribution-id E2JBNOY4U9BCHB --paths "/*"`
+### `aws cloudfront create-invalidation --distribution-id {id-from-twistedvisionstudios cloudfront} --paths "/*"`
 
 After uploading new files to S3, use the `aws cloudfront create-invalidation` command to invalidate cached files in CloudFront. This ensures that users see the latest version of your website.
 
